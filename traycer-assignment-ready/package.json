@@ -1,0 +1,21 @@
+{
+  "name": "traycer-lite-multi",
+  "version": "0.2.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "plan": "ts-node src/index.ts --yes --goals \"Add dark mode to Navbar|Add loading skeleton to Products page|Migrate axios to fetch\"",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "^8.5.0",
+    "inquirer": "^9.3.6"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
